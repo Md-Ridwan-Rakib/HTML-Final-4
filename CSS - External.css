@@ -1,0 +1,466 @@
+h1.heading-style {
+    color: green;
+    font-size: 50px;
+}
+
+#para-style {
+    color: red;
+}
+
+#section1 {
+    background-color: lightblue;
+}
+
+#section1 h2 b {
+    color: red;
+}
+
+#section1 p b {
+    color: blue;
+}
+
+.style1 {
+    color: green;
+}
+
+.style2 {
+    font-size: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+    background-color: honeydew;
+}
+
+#div2 > p {
+    background-color: red;
+    color: white;
+}
+
+p.my-style {
+    font-size: 30px;
+    font-family: Algerian;
+    font-style: italic;
+    font-weight: bold;
+    color: brown;
+}
+
+.decoration{
+    text-decoration: underline solid red;
+}
+
+.indent {
+    text-indent: 100px;
+}
+
+.justify {
+    text-align: justify
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.shadow {
+    text-shadow: 5px 3px red;
+}
+
+.spacing {
+    word-spacing: 20px;
+}
+
+.hazard {
+    color: red;
+    font-size: 40px;
+}
+
+.div-margin {
+    background-color: red;
+    color: white;
+    width: 200px;
+    margin: 50px;
+    text-align: center;
+}
+
+.padding {
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    width: 200px;
+    margin: 50px;
+}
+
+.word-border1 {
+    border: 10px solid red;
+    width: 158px;
+}
+
+.word-border2 {
+    border: 10px double red;
+    width: 158px;
+}
+
+.word-border3 {
+    border: 10px dotted red;
+    width: 158px;
+}
+
+.word-border4 {
+    border: 10px outset red;
+    width: 158px;
+}
+
+.word-border5 {
+    border: 10px ridge red;
+    width: 158px;
+}
+
+.design-border {
+    width: 315px;
+    border-left-style: dotted;
+    border-left-color: orange;
+    border-left-width: 10px;
+    border-top-style: solid;
+    border-top-color: red;
+    border-top-width: 10px;
+    border-right-style: outset;
+    border-right-color: lime;
+    border-right-width: 10px;
+    border-bottom-style: ridge;
+    border-bottom-color: blue;
+    border-bottom-width: 10px;
+    border-radius: 20px;
+}
+
+.box-model {
+    background-color: gray;
+    width: 200px;
+    padding: 5px;
+    border: 5px solid greenyellow;
+    margin: 10px;
+}
+
+.background-image {
+    text-align: justify;
+    font-size: 25px;
+    color: red;
+    background-image: url("audi1.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
+.block-element {
+    background-color: red;
+}
+
+.inline-element {
+    background-color: blue;
+    display: inline;
+}
+
+.max-width {
+    max-width: 1275px;
+    border: 5px ridge blue;
+}
+
+.linear-gradient {
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(to right, red, green, blue);
+}
+
+.radial-gradient {
+    height: 500px;
+    width: 100%;
+    background-image: radial-gradient(circle, red, green, blue);
+}
+
+.box-sizing {
+    font-size: 20px;
+    background-color: blue;
+    max-height: auto;
+    width: 50%;
+    padding: 15px;
+    border: 10px ridge red;
+    box-sizing: border-box;
+    }
+
+.box-sizing1 {
+    font-size: 20px;
+    background-color: red;
+    max-height: auto;
+    width: 50%;
+    padding: 15px;
+    border: 10px ridge blue;
+}
+
+.opacity-text {
+    opacity: 0.5;
+}
+
+.opacity-text1 {
+    opacity: 0.5;
+}
+
+.opacity-text1:hover {
+    opacity: 1;
+}
+
+.opacity-img {
+    height: auto;
+    width: 70%;
+    opacity: 0.7;
+}
+
+.opacity-img:hover {
+    opacity: 1;
+}
+
+.overflow-scroll {
+    height: 200px;
+    width: 30%;
+    background-color: blue;
+    border: 5px double red;
+    overflow: scroll;
+}
+
+.overflow-auto {
+    height: 200px;
+    width: 30%;
+    background-color: red;
+    border: 5px double blue;
+    overflow: auto;
+}
+
+.tooltip {
+    position: relative
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    top: 30px;
+    left: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+.overflow-auto-for-tooltip {
+    height: 200px;
+    width: 30%;
+    background-color: green;
+    border: 5px double red;
+    overflow: auto;
+}
+
+table {
+    border: 5px ridge red;
+    border-collapse: collapse;
+    max-width: 100%;
+    font-size: 20px;
+}
+
+th, td {
+    border: 5px ridge red;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: lime;
+    color: black;
+    height: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+tr:nth-child(odd) {
+    background-color: gold;
+}
+
+tr:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+form {
+    border: 10px ridge red;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.form-para {
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
+    color: blue;
+    text-align: center;
+}
+
+input.form {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 20px 0px;
+    box-sizing: border-box;
+    border: 5px ridge blue;
+    border-radius: 10px;
+    background-color: gold;
+}
+
+#search {
+    background-image: url("search.png");
+    background-repeat: no-repeat;
+    background-position: 10px 7px;
+    padding: 10px 38px;
+    background-color: lime;
+    width: 150px;
+    transition: width 0.5s ease-in-out;
+}
+#search:focus {
+    background-color: yellow;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    width: 50%;
+    padding: 10px;
+    border: 5px ridge blue;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+
+input[type=button] {
+    width: 80px;
+    color: white;
+    font-weight: bold;
+    border: 5px ridge blue;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: red;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    width: 80px;
+    color: white;
+    font-weight: bold;
+    border: 5px ridge blue;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: red;
+    cursor: pointer;
+}
+
+select {
+    font-size: 15px;
+    border: 5px ridge blue;
+    border-radius: 10px;
+    background-color: rgb(255, 100, 100);
+}
+
+.pseudo-class-para {
+    font-size: 25px;
+    font-weight: bold;
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+.pseudo-class-input {
+    width: 20%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border: 5px ridge red;
+    border-radius: 10px;
+    background-color: goldenrod;
+    transition: width 0.5s ease-in-out;
+}
+
+.pseudo-class-input:hover {
+    border: 5px ridge blue;
+}
+
+.pseudo-class-input:focus {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pseudo-class-para::first-letter {
+    font-size: 40px;
+}
+
+.pseudo-class-para::after {
+    content: ">";
+}
+
+.pseudo-para-hover-1 p:hover {
+    background-color: cornflowerblue;
+    color: darkorange;
+}
+
+.pseudo-para-nth-child-2 p:nth-child(2) {
+    background-color: cornflowerblue;
+    color: darkorange;
+}
+
+.pseudo-para-nth-child-3 p:nth-child(2n) {
+    background-color: cornflowerblue;
+    color: darkorange;
+}
+
+.pseudo-ulist-nth-child-4 li:nth-child(odd) {
+    background-color: black;
+    color: aqua;
+}
+
+.pseudo-para-element-5 p::first-letter {
+    color: brown;
+    font-size: 30px;
+}
+
+.pseudo-para-selection-6 p::selection {
+    color: darkblue;
+    background-color: darkkhaki;
+}
+
+.selection {
+    font-size: 20px;
+    color: rgb(255, 77, 77);
+}
+
+.pseudo-input-placeholder-7 {
+    padding: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 5px ridge blue;
+    border-radius: 10px;
+    background-color: gold;
+}
+
+.pseudo-input-placeholder-7::placeholder {
+    color: red;
+}
+
+.unordered-list-design {
+    
+}
